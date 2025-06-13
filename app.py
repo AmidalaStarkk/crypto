@@ -224,7 +224,7 @@ def demo_n8n_page():
             {
                 "text": "Step 3: Merging both branches and filtering for relevant information...",
                 "icon": "🖇️",
-                "pic": os.path.join(os.getcwd(), 'static', 'filter1.png'),
+                "pic": os.path.join(os.getcwd(), 'static', 'Filter1.png'),
                 "duration": 25
             },
             {
