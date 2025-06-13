@@ -1,5 +1,1 @@
 streamlit
-requests
-time
-threading
-os
