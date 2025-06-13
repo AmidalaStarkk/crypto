@@ -38,7 +38,7 @@ with st.sidebar:
             "Data/Inputs",
             "Outputs",
             "Predictions",
-            "NATE",
+            "n8n",
             "Demo: Report Generator",
             "Results and Conclusions",
             "Join Our Community!"
@@ -160,7 +160,7 @@ def nate():
     # Load the image
     # Replace 'NATE.png' with the actual path to your image file
     # if it's not in the same directory as your Streamlit script.
-    st.markdown("<h1 style='text-align: center;'>🤖 NATE Workflow Visualization</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>🤖 n8n Workflow Visualization</h1>", unsafe_allow_html=True)
     st.image("static/NATE.png", use_container_width=True)
 
 
@@ -213,13 +213,13 @@ def demo_n8n_page():
                 "text": "Step 1: Collecting news from the last 24h...",
                 "icon": "📰",
                 "pic": os.path.join(os.getcwd(), 'static', 'brave1.png'),
-                "duration": 30
+                "duration": 25
             },
             {
                 "text": "Step 2: Collecting tweets from relevant Bitcoin trading figures from the last 24h...",
                 "icon": "🐤",
                 "pic": os.path.join(os.getcwd(), 'static', 'X1.png'),
-                "duration": 30
+                "duration": 25
             },
             {
                 "text": "Step 3: Merging both branches and filtering for relevant information...",
@@ -231,7 +231,7 @@ def demo_n8n_page():
                 "text": "Step 4: The main AI brain generates the final report...",
                 "icon": "🧠",
                 "pic": os.path.join(os.getcwd(), 'static', 'main_brain.png'),
-                "duration": 25
+                "duration": 20
             }
         ]
 
@@ -301,7 +301,7 @@ elif option == "Outputs":
     outputs()
 elif option == "Predictions":
     predictions()
-elif option == "NATE":
+elif option == "n8n":
     nate()
 elif option == "Demo: Report Generator":
     demo_n8n_page()
