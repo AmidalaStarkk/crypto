@@ -225,13 +225,13 @@ def demo_n8n_page():
                 "text": "Step 3: Merging both branches and filtering for relevant information...",
                 "icon": "🖇️",
                 "pic": os.path.join(os.getcwd(), 'static', 'filter1.png'),
-                "duration": 20
+                "duration": 25
             },
             {
                 "text": "Step 4: The main AI brain generates the final report...",
                 "icon": "🧠",
                 "pic": os.path.join(os.getcwd(), 'static', 'main_brain.png'),
-                "duration": 40
+                "duration": 25
             }
         ]
 
